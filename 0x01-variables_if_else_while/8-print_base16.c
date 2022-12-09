@@ -11,10 +11,11 @@ int main(void)
 
 	for (n = 0; n <= 15; n++)
 	{
-		putchar((n % 10) + '0');
+		if (n < 10)
+			putchar((n % 10) + '0');
 
 		if (n >= 10)
-		{ 
+		{
 			n = 97;
 			for (n = 97; n < 103; n++)
 			{
