@@ -13,9 +13,9 @@ int main(void)
 	for (i = 0; i < 50; i++)
 	{
 		sum = first + second;
-		printf("%li, ", sum);
 		if (i == 49)
 			break;
+		printf("%li, ", sum);
 		first = second;
 		second = sum;
 
