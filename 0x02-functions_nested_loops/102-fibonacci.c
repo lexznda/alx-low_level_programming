@@ -6,14 +6,16 @@
 
 int main(void)
 {
+	int sum = 0;
 	int first = 0, second = 1, i;
 
+	printf("%d, ", first);
 	for (i = 0; i <= 50; i++)
 	{
-		printf("%d, ", first);
-		printf("%d, ", second);
+		sum = first + second;
+		printf("%d, ", sum);
 		first = second;
-		second = first + second;
+		second = sum;
 
 	}
 }
