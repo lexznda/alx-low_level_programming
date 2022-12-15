@@ -18,4 +18,5 @@ int main(void)
 		second = sum;
 
 	}
+	return (0);
 }
