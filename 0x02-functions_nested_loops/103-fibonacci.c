@@ -10,6 +10,7 @@ int main(void)
 
 	for (i = 0; i < 7; i++)
 	{
+		sum = first + second;
 		if (sum % 2 == 0)
 		{
 			even = even + sum;
