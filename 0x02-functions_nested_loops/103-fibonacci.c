@@ -18,4 +18,5 @@ int main(void)
 		first = second;
 		second = sum;
 	}
+	return (even);
 }
