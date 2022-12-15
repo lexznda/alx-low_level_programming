@@ -6,9 +6,9 @@
 int main(void)
 {
 	long int sum = 0;
-	long int first = 0, second = 1, even, i;
+	long int first = 0, second = 1, even;
 
-	for (i = 0; i < 7; i++)
+	while (sum < 4000000)
 	{
 		sum = first + second;
 		if (sum % 2 == 0)
