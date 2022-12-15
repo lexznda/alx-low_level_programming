@@ -19,6 +19,6 @@ int main(void)
 		second = sum;
 
 	}
-	printf("%li", sum);
+	printf("%li ", sum);
 	return (0);
 }
