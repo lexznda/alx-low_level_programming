@@ -14,7 +14,7 @@ int main(void)
 	{
 		sum = first + second;
 		printf("%li, ", sum);
-		if (i = 49)
+		if (i == 49)
 			break;
 		first = second;
 		second = sum;
