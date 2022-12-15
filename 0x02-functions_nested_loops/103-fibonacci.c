@@ -18,5 +18,6 @@ int main(void)
 		first = second;
 		second = sum;
 	}
-	return (even);
+	printf("%li\n", even);
+	return (0);
 }
