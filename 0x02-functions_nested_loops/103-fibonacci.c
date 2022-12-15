@@ -5,8 +5,8 @@
  */
 int main(void)
 {
-	long long int sum = 0;
-	long long int first = 0, second = 1, even, i;
+	long int sum = 0;
+	long int first = 0, second = 1, even, i;
 
 	for (i = 0; i < 33; i++)
 	{
