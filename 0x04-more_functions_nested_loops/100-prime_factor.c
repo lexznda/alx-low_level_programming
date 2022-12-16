@@ -6,13 +6,13 @@
 
 int main(void)
 {
-	long int quotient;
 	long int divisor = 2;
 	long int num = 612852475143;
+	long int quotient = num;
 
 	while (quotient != divisor)
 	{
-		if (quotient $ divisor == 0)
+		if (quotient % divisor == 0)
 		{
 			quotient = quotient / divisor;
 		}
