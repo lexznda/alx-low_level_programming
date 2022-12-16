@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -Fizzbuzz test
+ * main - Fizzbuzz test
  * Return: Always 0
  */
 
