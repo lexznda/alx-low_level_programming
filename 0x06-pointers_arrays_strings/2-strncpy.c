@@ -2,7 +2,7 @@
 
 /**
  * _strncpy - copies  astring
- * @dest destination pointer
+ * @dest: destination pointer
  * @src: source pointer
  * @n: no of bytes to be copied.
  * Return: dest

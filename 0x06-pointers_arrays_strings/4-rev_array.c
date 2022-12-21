@@ -14,7 +14,8 @@ void reverse_array(int *a, int n)
 	/* looping so that we get the total size of the array */
 	while (i < n)
 	{
-		/* Equating j to n - 1 because we start at 0 for arrays, and n is 1 greater */
+		/* Equating j to n - 1 because we start at 0 for arrays, and*/
+		/* n is 1 greater */
 		/* J reads from the end of the array and swaps the last array with */
 		/* the one before it */
 		/* It keeps swapping that last one until it becomes the first */
