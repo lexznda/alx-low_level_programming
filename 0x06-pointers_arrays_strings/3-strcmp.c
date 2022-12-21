@@ -16,6 +16,11 @@ int _strcmp(char *s1, char *s2)
 		s1++;
 		s2++;
 	}
-	status_num = (*s1 == *s2) ?0: (*s1 > *s2) ?15: -15;
+	if (*s1 == *s2)
+		status_num = 0;
+	else if (*s1 > *s2)
+		status_num = 15;
+	else
+		status_num = (-15);
 	return (status_num);
 }
