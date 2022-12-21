@@ -9,18 +9,17 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int status_num = 0;
+	int status_num = 0, n = 0;
 
-	while ((*s1 != '\0' && *s2 != '\0') && *s1 == *s2)
+	while (status_num == 0)
 	{
-		s1++;
-		s2++;
+		if (s1[n] != '\0' && s2[n] != '\0')
+		{
+			status_num = s1[n] - s2[n];
+			n++;
+		}
+		else
+			break;
 	}
-	if (*s1 == *s2)
-		status_num = 0;
-	else if (*s1 > *s2)
-		status_num = 15;
-	else
-		status_num = (-15);
 	return (status_num);
 }
