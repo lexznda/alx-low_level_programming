@@ -3,6 +3,8 @@
 
 /**
  * main - Prints its name
+ * @argc: argument count
+ * @argv: argument in an array
  * Return: int
  */
 
