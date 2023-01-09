@@ -12,10 +12,8 @@ int prime_number_checker(int n, int c)
 	if (n % c == 0)
 	{
 		if (n == c)
-		
 			return (1);
 		else
-		
 			return (0);
 	}
 	else
