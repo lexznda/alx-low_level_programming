@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 
-/** alloc_grid - returns a pointer to a a-dim array of integers
+/**
+ * alloc_grid - returns a pointer to a a-dim array of integers
  * @width: the widtet
  * @height: the height
- * Return a double pointer
+ * Return: a double pointer
  */
 
 int **alloc_grid(int width, int height)
@@ -14,11 +15,11 @@ int **alloc_grid(int width, int height)
 
 	if (height < 1 || width < 1)
 		return (NULL);
-	ptr = malloc(sizeof(int) * height);
+	ptr = malloc(sizeof(int*) * height);
 	if (ptr == NULL)
 	{
 		free(ptr);
-		return(NULL);
+		return (NULL);
 	}
 	for (i = 0; i < height; i++)
 	{
