@@ -20,10 +20,10 @@ char *str_concat(char *s1, char *s2)
 	for (i = 0; s1[i] != 0; i++)
 	{
 	}
-	for (i = i; s2[i] != 0; i++)
+	for (j = 0; s2[j] != 0; j++)
 	{
 	}
-	ptr = malloc(sizeof(char) * (i + 1));
+	ptr = malloc(sizeof(char) * (i + j + 1));
 	if (ptr == NULL)
 	{
 		free(ptr);
