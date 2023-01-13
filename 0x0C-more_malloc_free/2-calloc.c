@@ -3,7 +3,7 @@
 
 /**
  * _calloc - allocates memory for an array using malloc
- * @nmeb: number of elements
+ * @nmemb: number of elements
  * @size: size of the array
  * Return: void pointer
  */
@@ -15,13 +15,13 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	ptr = malloc(sizeof(int) * (nmemb * size));
+	ptr = malloc(nmemb * size);
 	if (ptr == NULL)
 	{
 		free(ptr);
 		return (NULL);
 	}
-	for (i = 0; i < nmemb; i++)
+	for (i = 0; i < (nmemb * size); i++)
 	{
 		ptr[i] = 0;
 	}
