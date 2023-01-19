@@ -9,7 +9,7 @@
 
 int main(int argc, char *argv[])
 {
-	int num1, num2, ans;
+	int num1, num2;
 	char *ptr;
 
 	if (argc != 4)
@@ -34,8 +34,6 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	ans = get_op_func(ptr)(num1, num2);
-
-	printf("%d\n", ans);
+	printf("%d\n", get_op_func(ptr)(num1, num2));
 	return (0);
 }
