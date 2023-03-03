@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * creat_file - creates a file
+ * create_file - creates a file
  * @filename: the filename
  * @text_content: the content to be written on the file
  * Return: different things
